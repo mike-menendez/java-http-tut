@@ -13,6 +13,10 @@ For 'nix users, it will be `source $VENV_NAME/bin/activate`, Windows users, you'
 
 This will need to be done in two seperate terminal windows as we have both the server and client to run simultainously.
 
+Once we have our enviorments setup, the next step is to install our required packages, this can be done with `pip3 install -r requirements.txt`.
+
+By doing it this way, we don't cluter our default python enviorment and allows us to only use the packages (and their specific version !important) for this project/code base.
+
 ## Using Each
 For setting up the webserver (which must be up and running before the client), we only have to invoke the server script, this should be a simple `python3 server.py` in one of the setup terminal windows.
 
