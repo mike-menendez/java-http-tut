@@ -27,6 +27,8 @@ Java annotations, they look kinda like `@SuppressWarnings` or `@Bean`, there sho
 
 Java bean. A bean is a class that implements Seriablizable; I don't think this will pop up.
 
+Interfaces vs Abstract Class. I think this [link](https://www.guru99.com/interface-vs-abstract-class-java.html) does a better job than I could of comparing the two. They are extremely important in Java.
+
 # Design Patterns
 These should be the only two that I can think of that may be in the project.
 
